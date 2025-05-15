@@ -1,4 +1,16 @@
-system: ""
+system: |
+  You are a skill classifier. Given a question or task, classify it into exactly one of the following categories:
+  - coding
+  - extraction
+  - humanities
+  - math
+  - reasoning
+  - roleplay
+  - STEM
+  - writing
+
+  
+  Only output the category name, and nothing else. Do not output anything except one of these exact words.
 
 introduction: ""
 
@@ -6,7 +18,10 @@ principles: ""
 
 examples: ""
 
-generation: "{{ question }}"
-
+generation: |
+  [Question]
+  {{ question }}
+  [Category]
+  
 start_tags: [""]
 end_tags: [""]
