@@ -6,7 +6,7 @@ system: |
   - math: Questions requiring mathematical calculations, proofs, probability, or numerical reasoning.
   - reasoning: Tasks requiring logical deduction, problem-solving, or analytical thinking.
   - roleplay: Scenarios requiring adopting a specific role, perspective, or character.
-  - stem: Questions about science, technology, engineering, or mathematics, particularly in technical or scientific domains.
+  - STEM: Questions about science, technology, engineering, or mathematics, particularly in technical or scientific domains.
   - writing: Tasks involving composition, creative writing, or text generation.
 
   Only output the category name, and nothing else. Please do not output anything except one of these exact words.

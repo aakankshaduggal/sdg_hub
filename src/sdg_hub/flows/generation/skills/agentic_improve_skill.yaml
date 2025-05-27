@@ -9,15 +9,16 @@
     temperature: 0
     max_tokens: 5
     extra_body:
+    extra_body:
       guided_choice:
-            - "coding"
-            - "extraction"
-            - "humanities"
-            - "math"
-            - "reasoning"
-            - "roleplay"
-            - "STEM"
-            - "writing"
+        - "coding"
+        - "extraction"
+        - "humanities"
+        - "math"
+        - "reasoning"
+        - "roleplay"
+        - "STEM"
+        - "writing"
 - block_type: SamplePopulatorBlock
   block_config:
     block_name: icl_populator
