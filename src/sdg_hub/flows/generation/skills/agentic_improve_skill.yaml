@@ -9,7 +9,6 @@
     temperature: 0
     max_tokens: 5
     extra_body:
-    extra_body:
       guided_choice:
         - "coding"
         - "extraction"
@@ -23,14 +22,14 @@
   block_config:
     block_name: icl_populator
     config_paths: 
-      - configs/skills/coding.yaml
-      - configs/skills/extraction.yaml
-      - configs/skills/humanities.yaml
-      - configs/skills/math.yaml
-      - configs/skills/reasoning.yaml
-      - configs/skills/roleplay.yaml
-      - configs/skills/STEM.yaml
-      - configs/skills/writing.yaml
+      - configs/skills/icl_examples/coding.yaml
+      - configs/skills/icl_examples/extraction.yaml
+      - configs/skills/icl_examples/humanities.yaml
+      - configs/skills/icl_examples/math.yaml
+      - configs/skills/icl_examples/reasoning.yaml
+      - configs/skills/icl_examples/roleplay.yaml
+      - configs/skills/icl_examples/STEM.yaml
+      - configs/skills/icl_examples/writing.yaml
     column_name: route
     batch_kwargs:
       num_procs: 8
